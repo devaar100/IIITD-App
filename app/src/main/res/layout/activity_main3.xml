@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aarnav100.developer.iitd.Main3Activity">
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Workforce"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Calendar"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Machinery"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>
